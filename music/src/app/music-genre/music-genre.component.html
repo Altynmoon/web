@@ -1,0 +1,8 @@
+
+<div class="musics">
+    <div  *ngFor="let genre of genres" >
+        <a routerLinkActive="active" class="button">{{ genre.name }}
+            <img class="image" src="{{genre.img}}">
+        </a>
+    </div>
+ </div>

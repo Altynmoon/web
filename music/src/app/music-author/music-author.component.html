@@ -1,0 +1,9 @@
+<div class="main">
+    <div *ngFor="let author of authors">
+        <div routerLinkActive="active" class="button">{{ author.name }}
+            <div class="history">{{author.history}}</div>
+            <div class="compositions">{{author.compositions}}</div>
+            <img class="image" src="{{author.image}}">
+        </div>
+    </div>
+</div>

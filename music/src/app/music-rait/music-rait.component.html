@@ -1,0 +1,14 @@
+<div class="musics">
+    <div  *ngFor="let music of bestmusics" >
+        <div routerLinkActive="active" class="button">{{ music.name }}</div>
+        <div [routerLink]="['/popular']" routerLinkActive="active" class="rait">
+            <div class="history">
+            </div>
+            <img class="image" src="{{music.img}}">
+            <div class="author">{{music.author}}</div>
+            <div class="genre">{{music.ganre}}</div>
+            <div class="rating">{{music.rating}}</div>
+
+        </div>
+    </div>
+ </div>

@@ -1,0 +1,17 @@
+<div class="musics">
+   <div  *ngFor="let music of musics" >
+       <a routerLinkActive="active"routerLink="/detail/{{music.id}}" class="button">{{ "Music name:"+ " " + music.name }}
+         <div class="history">{{"History:" + " " + music.history}}
+         </div>
+         <div class="author">{{"Author:" + " " + music.author}}</div>
+         <div class="genre">{{"Ganre:" + " " + music.ganre}}</div>
+         <div class="text">{{"Text:" + " " + music.text}}</div>
+         <div class="rating">{{"Rating:" + " " + music.rating}}</div>
+         <div class="source">{{"Source:" + " " + music.sources}}</div>
+         <img class="image" src="{{music.img}}">
+         
+         
+       </a>
+
+   </div>
+</div>

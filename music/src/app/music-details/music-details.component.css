@@ -1,0 +1,25 @@
+.musics{
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+    left: 30px;
+    top: 120px;
+    font-size: 12pt;
+    color: #531876;
+    text-align: justify;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.image{
+    margin: 0 auto;
+    font-size: 5pt;
+}
+.history{
+  text-align: left;
+  width: 50%;
+}
+.button{
+  text-decoration: none;
+}
